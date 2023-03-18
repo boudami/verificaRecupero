@@ -18,5 +18,9 @@ namespace scuolaVerifica
             this.orarioChiusura = orarioChiusura;
             this.orarioApertura = orarioApertura;
         }
+        private string aggiuntaAlunno(string aggiuntaAlunno)
+        {
+            return nome+ aggiuntaAlunno;
+        }
     }
 }
