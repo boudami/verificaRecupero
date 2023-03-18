@@ -24,5 +24,13 @@ namespace scuolaVerifica
         {
             return getCognome;
         }
+        private string categoria()
+        {
+            if (eta < 16)
+            {
+                return "biennio";
+            }
+            else return "triennio";
+        }
     }
 }
