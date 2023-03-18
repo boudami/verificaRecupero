@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="btnCreaAlunni" Content="Crea alunni" HorizontalAlignment="Left" Margin="140,79,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnCreaAlunni" Content="Crea alunni" HorizontalAlignment="Left" Margin="140,79,0,0" VerticalAlignment="Top" Click="btnCreaAlunni_Click"/>
         <Button x:Name="btnAggiuntaAlunno" Content="aggiuni alunno" HorizontalAlignment="Left" Margin="321,89,0,0" VerticalAlignment="Top"/>
         <Button x:Name="btnCercaAlunno" Content="Cerca alunno" HorizontalAlignment="Left" Margin="109,148,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txtEta" HorizontalAlignment="Left" Margin="234,148,0,0" TextWrapping="Wrap" Text="inserisci eta" VerticalAlignment="Top" Width="120"/>
