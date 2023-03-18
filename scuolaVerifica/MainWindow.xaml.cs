@@ -24,7 +24,7 @@ namespace scuolaVerifica
         {
             InitializeComponent();
         }
-
+        // modifica apportata da github
         private void btnCreaAlunni_Click(object sender, RoutedEventArgs e)
         {
             string alunno;
